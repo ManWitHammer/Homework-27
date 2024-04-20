@@ -1,0 +1,22 @@
+body {
+	background: rgb(35, 45, 70);
+}
+
+.container {
+	height: 700px;
+	width: 700px;
+	border-radius: 15px;
+	padding: 15px;
+	background: palegreen;
+	border: 4px dashed rgb(121, 0, 115);
+}
+
+.title {
+    width: 60%;
+    padding: 20px;
+    border: 3px solid white;
+    background: rgb(121, 0, 115);
+    color: white;
+	text-align: center;
+    border-radius: 15px;
+}

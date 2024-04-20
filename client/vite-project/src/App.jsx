@@ -1,0 +1,15 @@
+import Block from './components/Block/Block'
+import List from './components/ListAndBlock/ListAndBlock'
+import styles from './App.module.css'
+
+function App() {
+	return (
+		<div className={styles['container']}>
+			<h1 className={styles['title']}>Hello</h1>
+			<List />
+			<Block />
+		</div>
+	)
+}
+
+export default App
